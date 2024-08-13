@@ -181,6 +181,21 @@ h6 {
   #header.header-top {
     height: 60px;
   }
+    #header h1,h2 {
+  text-align: center;
+  }
+   body::before {
+    content: "";
+    position: fixed;
+    background: #040404 url("../img/bgm.png") top center no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #000000;
+    z-index: -1;
+  }
 
   #header.header-top h1 {
     font-size: 26px;
